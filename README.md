@@ -1,6 +1,9 @@
   <div align='Center'>
-    <a href ="https://www.chaijs.com/">
+    <a href ="https://www.postman.com/">
       <img src="https://www.itsdelta.ru/upload/iblock/d41/d4164c9d28b9e2c11e347b5e477ab831.png" width="50px"/>
+    </a>
+    <a href ="https://www.chaijs.com/">
+      <img src="https://www.seekpng.com/png/full/519-5190729_chai-js.png" width="50px"/>
     </a>
   </div>
   
