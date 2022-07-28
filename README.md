@@ -1,12 +1,10 @@
-# Postman hints
-  
   <div align='Center'>
     <a href ="https://www.chaijs.com/">
       <img src="https://www.itsdelta.ru/upload/iblock/d41/d4164c9d28b9e2c11e347b5e477ab831.png" width="50px"/>
     </a>
   </div>
-
-# Спарсить request
+# Postman hints
+## Спарсить request
 
 POST raw
 ```
@@ -20,7 +18,7 @@ GET
 ```
 let get_params = pm.request.url.query.toObject()
 ```
-# Установка переменных
+## Установка переменных
 Глобальные переменные
 ```
 pm.globals.set('variable name', "value");
@@ -34,7 +32,7 @@ let variable_name = value;
 pm.environment.set('var_name' , 'value');
 ```
 
-# Получение переменных:
+## Получение переменных:
 Глобальные переменные
 ```
 pm.globals.get('var_name');
@@ -52,7 +50,7 @@ pm.iterationData.get('var_name');
 variable_name;
 ```
 
-# Очистка переменных:
+## Очистка переменных:
 Глобальные переменные (только одна)
 ```
 pm.globals.unset('var_name');
