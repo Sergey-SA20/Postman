@@ -1,12 +1,12 @@
-<div>
-  <p align='Center'>
-  <a href ="https://www.chaijs.com/">
-  <img src="https://www.itsdelta.ru/upload/iblock/d41/d4164c9d28b9e2c11e347b5e477ab831.png" width="50px"/>
-  </a>
-  </p>
-</div>  
+  #Postman hints
+  
+  <div align='Center'>
+    <a href ="https://www.chaijs.com/">
+      <img src="https://www.itsdelta.ru/upload/iblock/d41/d4164c9d28b9e2c11e347b5e477ab831.png" width="50px"/>
+    </a>
+  </div>
 
-## Спарсить request
+# Спарсить request
 
 POST raw
 ```
@@ -20,10 +20,6 @@ GET
 ```
 let get_params = pm.request.url.query.toObject()
 ```
-
-# Переменные
-Коды для работы с окружением и переменными
-
 # Установка переменных
 Глобальные переменные
 ```
@@ -31,25 +27,25 @@ pm.globals.set('variable name', "value");
 ```
 Локальная переменная 
 ```
-var variable_name = value;
+let variable_name = value;
 ```
 Переменная среды
 ```
-pm.environment.set('variable_name' , 'value');
+pm.environment.set('var_name' , 'value');
 ```
 
 # Получение переменных:
 Глобальные переменные
 ```
-pm.globals.get('variable_name');
+pm.globals.get('var_name');
 ```
 Переменная среды
 ```
-pm.environment.get('varibable_name');
+pm.environment.get('var_name');
 ```
 Переменная данных
 ```
-pm.iterationData.get('variable_name');
+pm.iterationData.get('var_name');
 ```
 Локальная переменная
 ```
@@ -59,7 +55,7 @@ variable_name;
 # Очистка переменных:
 Глобальные переменные (только одна)
 ```
-pm.globals.unset('variable_name');
+pm.globals.unset('var_name');
 ```
 Глобальные переменные (все)
 ```
@@ -67,7 +63,7 @@ pm.globals.clear();
 ```
 Переменная среды (только одна)
 ```
-pm.environment.unset('variable_name');
+pm.environment.unset('var_name');
 ```
 Переменная среды (все)
 ```
